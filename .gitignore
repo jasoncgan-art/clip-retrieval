@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# data (downloaded, not committed)
+data/
+
+# run artifacts (embeddings, metrics outputs)
+artifacts/
+
+# checkpoints
+checkpoints/
+*.pt
+*.bin
+
+# local virtualenv
+.venv/
+
+# run logs (reproducibility scratch, not committed)
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/

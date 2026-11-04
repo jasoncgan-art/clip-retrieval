@@ -1,0 +1,11 @@
+# Install order matters: install CPU torch FIRST (see run_all.sh), then
+# this file. Plain `pip install -r requirements.txt` on a GPU box works
+# too (it pulls the default CUDA torch wheel); on CPU, run_all.sh pins
+# torch to the CPU index first so this file's torch line is satisfied.
+torch
+transformers
+datasets
+huggingface_hub
+Pillow
+numpy
+tqdm
